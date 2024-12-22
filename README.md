@@ -1,1 +1,7 @@
 # Abalone-Age-Prediction-KNN
+
+This project uses the **K-Nearest Neighbors (KNN)** algorithm to predict the age of abalones based on their physical characteristics, such as length, diameter, weight, and height. The dataset contains features like **WholeWeight**, **ShuckedWeight**, **VisceraWeight**, **ShellWeight**, and **Rings** (the number of rings on the shell, which is used to estimate age). The goal is to train a KNN model to predict the age of abalones by using these features, and the model's performance is evaluated using RMSE. To run the project, simply clone the repository, install the required libraries (`numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`), and execute the script to train and test the model.
+
+---
+
+Bu proje, **K-En Yakın Komşu (KNN)** algoritmasını kullanarak, abalones'in yaşını fiziksel özelliklerine göre tahmin etmeyi amaçlamaktadır. Veri seti, **Length**, **Diameter**, **WholeWeight**, **ShuckedWeight**, **VisceraWeight**, **ShellWeight** gibi özelliklerin yanı sıra, **Rings** (kabuk üzerindeki halkalar, yaş tahmini için kullanılır) gibi veriler içerir. Amaç, bu özellikleri kullanarak bir KNN modeli eğitmek ve modelin performansını **RMSE** ile değerlendirmektir. Projeyi çalıştırmak için, repoyu klonlayıp gerekli kütüphaneleri (`numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`) yükleyebilir ve ardından scripti çalıştırarak modeli eğitebilirsiniz.
